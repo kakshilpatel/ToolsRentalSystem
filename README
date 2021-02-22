@@ -1,0 +1,9 @@
+Welcome to Tools Rental System!!!
+
+===> ToolRentalSystem class has a main method and you can run the project by doing right click on the ToolRentalSystem class and then 
+	 Run As -> Java Application then you should be able to see an expected result in the console.
+ 
+1. Checkout class is used to take inputs and generate the rental agreement from RentalAgreement class based on the inputs.
+2. Different Tool type is defined as enum as tool type in ToolType class which contains multiple properties used in rent calculation of tool so it is easy to use in calculation based on tool type properties.
+   If we need to add new tool then just need to define tool type in enum class, no change required in rent calculation logic.
+3. For holidays list population, used latest Java 8 Date and Time APIs.
